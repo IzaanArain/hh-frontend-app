@@ -11,7 +11,7 @@ const JobPostForm = () => {
           <input type="datetime-local" name="start_time" id="start_time" value={startTime} onChange={(e)=>setStartTime(e.target.value)}/>
         </div>
         <div className="form-group">
-          <label htmlFor="end_time">Start Time : </label>
+          <label htmlFor="end_time">End Time : </label>
           <input type="datetime-local" name="end_time" id="end_time" value={endTime} onChange={(e)=>setEndTime(e.target.value)}/>
         </div>
       </form>
